@@ -219,7 +219,7 @@ BICLL[5,2] <- fit.WEI$sbc
 BICLL[5,3] <- logLik(fit.WEI)
 
 colnames(BICLL) <- c("Distribution", "BIC", "LL")
-print(BICLL) #Gamma has the lowest BIC and max LL is also Gamma
+print(BICLL) #Gamma has the lowest BIC 
 
 ## Mixture Model 
 
@@ -304,7 +304,7 @@ BICLL[5,3] <- logLik(fit.WEI)
 
 colnames(BICLL) <- c("Distribution", "BIC", "LL")
 
-print(BICLL) #Gamma has the lowest BIC and max LL is also Gamma
+print(BICLL) #Gamma has the lowest BIC
 
 
 ### mistrure model
@@ -378,7 +378,7 @@ BICLL[2,3] <- logLik(fit.LOGITNO)
 
 colnames(BICLL) <- c("Distribution", "BIC", "LL")
 
-print(BICLL) #logitno has best BIC and Beta has better LL
+print(BICLL) #logitno has best BIC
 
 
 
@@ -433,7 +433,7 @@ BICLL[5,3] <- logLik(fit.WEI)
 
 colnames(BICLL) <- c("Distribution", "BIC", "LL")
 
-print(BICLL) #Gamma has the lowest BIC and max LL is also Gamma
+print(BICLL) #Gamma has the lowest BIC
 
 
 # Systolic
@@ -489,7 +489,7 @@ BICLL[5,3] <- logLik(fit.WEI)
 
 colnames(BICLL) <- c("Distribution", "BIC", "LL")
 
-print(BICLL) #Gamma has the lowest BIC and max LL is also Gamma
+print(BICLL) #Gamma has the lowest BIC
 
 # Grip Force
 summary(GRIP_FORCE)
@@ -544,7 +544,7 @@ BICLL[5,3] <- logLik(fit.WEI)
 
 colnames(BICLL) <- c("Distribution", "BIC", "LL")
 
-print(BICLL) #Weibull has the lowest BIC and max LL is also Weibull
+print(BICLL) #Weibull has the lowest BIC
 
 
 
@@ -675,7 +675,7 @@ BICLL[5,3] <- logLik(fit.WEI)
 
 colnames(BICLL) <- c("Distribution", "BIC", "LL")
 
-print(BICLL) #Weibull has the lowest BIC and max LL is also Weibull
+print(BICLL) #Weibull has the lowest BIC
 
 
 
